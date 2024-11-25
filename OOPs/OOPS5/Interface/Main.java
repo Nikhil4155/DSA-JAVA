@@ -14,8 +14,8 @@ public class Main {
         System.out.println(Engine.CONSTANT_VALUE);
         System.out.println(Engine.MESSAGE);
 
-        System.out.println(car.CONSTANT_VALUE);
-        System.out.println(car.MESSAGE);
+        // System.out.println(car.CONSTANT_VALUE);
+        // System.out.println(car.MESSAGE);
 
         // car.callhelpcenter();
         // car.display(); //This static method of interface Engine can only be accessed as Engine.display
