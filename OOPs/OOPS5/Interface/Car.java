@@ -13,6 +13,9 @@ public class Car implements Engine,Brake,Media {
         this.price=price;
     }
 
+    //Yes, if a class implements two interfaces, it is necessary to implement all the methods
+    //defined in both interfaces unless the class is declared as abstract. 
+
     @Override
     public void brake() {
         System.out.println("I am going to apply a brake");
@@ -31,6 +34,11 @@ public class Car implements Engine,Brake,Media {
     @Override
     public void acc() {
         System.out.println("I accelerate like a normal engine car");
+    }
+
+    void displaycarno()
+    {
+        System.out.println(this.carno);
     }
     
 }
