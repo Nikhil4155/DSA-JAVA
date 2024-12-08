@@ -12,8 +12,8 @@ public class cvowel
 		for(int i=0; i<(st.length()); i++)
 		{
 			char ch=st.charAt(i);
-			if(ch.indexOf('aeiouAEIOU')>=0)
-				count+=1;
+//			if(ch.indexOf('aeiouAEIOU')>=0)
+//				count+=1;
 
 		}
 		System.out.println("The total number of vowels:"+count);
