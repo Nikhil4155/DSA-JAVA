@@ -1,4 +1,4 @@
-package OOPs.OOPS2;
+package OOPs.OOPS2.Static;
 
 public class StaticBlock {
     static int a=4;

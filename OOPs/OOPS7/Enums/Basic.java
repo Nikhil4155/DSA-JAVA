@@ -1,4 +1,4 @@
-package OOPs.OOPS6.Enums;
+package OOPs.OOPS7.Enums;
 
 public class Basic implements A{
 
